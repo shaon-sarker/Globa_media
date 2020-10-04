@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#advanture {
+  background-image: url(bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.top-sign-up {
+  border: none;
+  background: #fff;
+  padding: 4px 28px;
+  border-radius: 25px;
+  outline: none;
+}
+p {
+  font-size: 14px;
+}
+a {
+  font-size: 14px;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+.top-sign-up .navbar-nav {
+  font-size: 14px !important;
+}
+.hero-content {
+  text-align: center;
+  padding-top: 160px;
+}
+.hero-content h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 45px;
+}
+.hero-button {
+  font-size: 14px;
+  background: #df4927;
+  border: none;
+  padding: 12px 20px;
+  color: #fff;
+  border-radius: 25px;
+}
+.publisher-single-post {
+  background: #fff;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.publisher-single-post h2 {
+  padding-top: 45px;
+}
+.single-post-button {
+  border: none;
+  background: #f3a032;
+  padding: 7px 15px;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.publisher-single-post a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+.publisher-top {
+  margin-top: -140px;
+  margin-bottom: 90px;
+}
+.publisher-single-post:hover {
+  background: #f3a032;
+}
+.publisher-single-post:hover .single-post-button {
+  background: #f3a032;
+  color: #fff;
+}
+.publisher-bottom h1 {
+  text-align: center;
+}
+.publisher-bottom p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.col-md-3 img {
+  padding-bottom: 36px;
+}
+#agency-section {
+  background: #f6f6f6;
+}
+.row.agency-top {
+  text-align: center;
+}
+.row.agency-top h1 {
+  margin-top: 113px;
+}
+.row .agency-top p {
+  line-height: 31px;
+  margin-bottom: 96px;
+}
+.marketing {
+  width: 100%;
+  padding: 50px;
+  background: white;
+  text-transform: uppercase;
+  margin-top: 110px;
+  margin-bottom: 96px;
+}
+.marketing:hover {
+  background: #f3a032;
+  color: white;
+  cursor: pointer;
+}
+.com-left h1 {
+  padding-top: 377px;
+}
+.com-left p {
+  margin-top: 15px;
+  line-height: 29px;
+}
+.com-left a {
+  margin-bottom: 45px;
+  color: #f3a032;
+}
+.com-right {
+  margin-top: 118px;
+  margin-bottom: 130px;
+}
+#agen {
+  background: #f6f6f6;
+  padding: 110px 0px 90px 0px;
+}
+.agen-top p {
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+.agen-bottom img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.agen-bottom p {
+  line-height: 27px;
+  margin-bottom: 45px;
+}
+/* end of agen */
+
+#publiser {
+  background-image: url(bgvideo.png);
+}
+.pub-top h2 {
+  margin-top: 110px;
+  color: white;
+}
+.pub-top {
+  text-align: center;
+  color: white;
+}
+.pub-top p {
+  line-height: 20px;
+  margin-bottom: 130px;
+}
+.pub-bottom img {
+  margin-bottom: 150px;
+}
+/* end of publiser */
+
+.fact-top {
+  text-align: center;
+}
+.fact-top h2 {
+  margin-top: 110px;
+}
+.fact-top p {
+  margin-bottom: 70px;
+}
+.fact-bottom img {
+  margin-bottom: 40px;
+}
+.fact-bottom p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+.fact-bottom p:hover {
+  border-bottom: 2px solid #f3a032;
+  cursor: pointer;
+}
+
+/* end of publiser */
+.copy-right {
+  padding-top: 60px;
+  text-align: center;
+}
+
+/*  
+
+Responsive Design start
+
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+  publisher-single-post {
+    margin-left: 20px;
+  }
+  element.style {
+    text-align: left;
+    margin-bottom: 92px;
+    line-height: 28px;
+    margin-left: 25px;
+  }
+  .col-md-3 img {
+    padding-bottom: 11px;
+    margin-left: 20px;
+  }
+  .com-left h1 {
+    padding-top: 377px;
+    text-align: center;
+  }
+  .com-left p {
+    margin-top: 15px;
+    line-height: 29px;
+    text-align: right;
+  }
+  .com-left a {
+    margin-bottom: 45px;
+    color: #f3a032;
+    margin-left: 10px;
+  }
+  .row.agen-top {
+    text-align: center;
+  }
+  .agen-bottom img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .marketing {
+    width: 100%;
+    padding: 17px;
+    background: white;
+    text-transform: uppercase;
+    margin-top: 110px;
+    margin-bottom: 96px;
+  }
+  .row.agen-top {
+    text-align: center;
+  }
+  .agen-bottom img {
+    /* float: left; */
+    margin-right: 20px;
+    margin-bottom: 30px;
+  }
+}
